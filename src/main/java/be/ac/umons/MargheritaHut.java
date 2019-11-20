@@ -5,6 +5,6 @@ import be.ac.umons.Margherita;
 public class MargheritaHut extends Margherita {
     MargheritaHut() {
         super();
-        //ListIngredients.add(); // Olives
+        ListIngredients.add(new Cheese()); // Olives
     }
 }

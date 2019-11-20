@@ -5,7 +5,6 @@ import be.ac.umons.Ingredient;
 
 public class Cheese extends Ingredient {
     Cheese() {
-        BigDecimal price = new BigDecimal("");
-        super("Cheese", price);
+        super(App.ingredients.get("Cheese").getName(), App.ingredients.get("Cheese").getPrice());
     }
 }
