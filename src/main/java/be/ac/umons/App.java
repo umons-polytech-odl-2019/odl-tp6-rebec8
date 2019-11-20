@@ -9,6 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -56,6 +57,10 @@ public class App
         }*/
 
         ingredients.forEach((k, v) -> System.out.println(k + " : " + v.getPrice() + " €"));
+        ArrayList<Ingredient>ListIngredients = new ArrayList<Ingredient>();
+        ListIngredients.add(ingredients.get("Olive"));
+        Pizza p = new Pizza(".....", 7, ListIngredients );
+
     }
 
     /**
