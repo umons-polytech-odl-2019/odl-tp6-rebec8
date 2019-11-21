@@ -5,6 +5,6 @@ import be.ac.umons.Carbonara;
 public class CarbonaraHut extends Carbonara {
     CarbonaraHut() {
         super();
-        //ListIngredients.add();
+        ListIngredients.add(new Olive());
     }
 }
