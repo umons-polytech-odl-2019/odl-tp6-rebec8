@@ -19,6 +19,7 @@ public class Pizza implements PizzaComponent {
         this.ListIngredients = ListIngredients;
     }
 
+
     public String getName() {
         return name;
     }
